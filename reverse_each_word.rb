@@ -1,5 +1,5 @@
 def reverse_each_word(sentence)
-  sentence = value.split
+  sentence = sentence.split
   sentence.reverse! do |word|
     return sentence
 end
