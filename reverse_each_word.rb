@@ -1,6 +1,6 @@
 def reverse_each_word(sentence)
   new_sentence = []
-  sentence.reverse_each! do |word|
+  sentence.each do |word.reverse|
     return new_sentence
 end
 end
